@@ -1,0 +1,818 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_avioes_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_avioes" />
+
+                    <TextView
+                        android:id="@+id/tv_avioes_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_avioes_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/avioes_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_avioes_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_avioes_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/avioes_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_avioes_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_avioes_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_avioes_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_avioes_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_carros_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_carros_3" />
+
+                    <TextView
+                        android:id="@+id/tv_carros_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_carros_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/carros_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_carros_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_carros_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/carros_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_carros_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_carros_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_carros_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_carros_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_chefinho_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_chefinho" />
+
+                    <TextView
+                        android:id="@+id/tv_chefinho_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_chefinho_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/chefinho_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_chefinho_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_chefinho_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/chefinho_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_chefinho_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_chefinho_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_chefinho_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_chefinho_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_divertidamente_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_divertidamente" />
+
+                    <TextView
+                        android:id="@+id/tv_divertidamente_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_divertidamente_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/divertidamente_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_divertidamente_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_divertidamente_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/divertidamente_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_divertidamente_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_divertidamente_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_divertidamente_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_divertidamente_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_kubo_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_kubo" />
+
+                    <TextView
+                        android:id="@+id/tv_kubo_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_kubo_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/kubo_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_kubo_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_kubo_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/kubo_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_kubo_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_kubo_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_kubo_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_kubo_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_pets_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_pets" />
+
+                    <TextView
+                        android:id="@+id/tv_pets_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_pets_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/pets_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_pets_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_pets_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/pets_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_pets_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_pets_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_pets_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_pets_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_shrek_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_shrek" />
+
+                    <TextView
+                        android:id="@+id/tv_shrek_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_shrek_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/shrek_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_shrek_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_shrek_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/shrek_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_shrek_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_shrek_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_shrek_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_shrek_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_dragao_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_treinar_dragao_2" />
+
+                    <TextView
+                        android:id="@+id/tv_dragao_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_dragao_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/dragao_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_dragao_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_dragao_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/dragao_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_dragao_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_dragao_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_dragao_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_dragao_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_turbo_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_turbo" />
+
+                    <TextView
+                        android:id="@+id/tv_turbo_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_turbo_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/turbo_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_turbo_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_turbo_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/turbo_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_turbo_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_turbo_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_turbo_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_turbo_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_zootopia_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_zootopia" />
+
+                    <TextView
+                        android:id="@+id/tv_zootopia_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_zootopia_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/trezentos_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_zootopia_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_zootopia_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/trezentos_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_zootopia_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_zootopia_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_zootopia_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_zootopia_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
+
+

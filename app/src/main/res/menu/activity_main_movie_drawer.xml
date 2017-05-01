@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_movie"
+            android:icon="@drawable/cartaz_superhero"
+            android:title="Filme Principal" />
+
+        <item android:title="Categorias">
+            <menu>
+                <item
+                    android:id="@+id/nav_action_adventure"
+                    android:icon="@drawable/ic_menu_rope"
+                    android:title="Ação/Aventura" />
+                <item
+                    android:id="@+id/nav_animation"
+                    android:icon="@drawable/ic_menu_rocking_horse"
+                    android:title="Animação" />
+                <item
+                    android:id="@+id/nav_comedy"
+                    android:icon="@drawable/ic_menu_emoticon_black"
+                    android:title="Comédia" />
+                <item
+                    android:id="@+id/nav_horror"
+                    android:icon="@drawable/ic_menu_ghost"
+                    android:title="Terror" />
+            </menu>
+        </item>
+    </group>
+</menu>

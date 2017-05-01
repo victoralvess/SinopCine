@@ -1,0 +1,821 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_boneco_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_boneco" />
+
+                    <TextView
+                        android:id="@+id/tv_boneco_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_boneco_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/boneco_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_boneco_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_boneco_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/boneco_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_boneco_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_boneco_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_boneco_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_boneco_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_bruxa_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_bruxa" />
+
+                    <TextView
+                        android:id="@+id/tv_bruxa_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_bruxa_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/bruxa_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_bruxa_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_bruxa_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/bruxa_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_bruxa_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_bruxa_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_bruxa_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_bruxa_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_entidade1_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_entidade" />
+
+                    <TextView
+                        android:id="@+id/tv_entidade1_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_entidade1_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/entidade1_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_entidade1_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_entidade1_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/entidade1_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_entidade1_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_entidade1_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_entidade1_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_entidade1_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_entidade2_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_entidade2" />
+
+                    <TextView
+                        android:id="@+id/tv_entidade2_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_entidade2_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/entidade2_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_entidade2_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_entidade2_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/entidade2_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_entidade2_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_entidade2_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_entidade2_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_entidade2_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_hora_pesadelo_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_hora_pesadelo" />
+
+                    <TextView
+                        android:id="@+id/tv_hora_pesadelo_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_hora_pesadelo_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/hora_pesadelo_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_hora_pesadelo_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_hora_pesadelo_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/hora_pesadelo_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_hora_pesadelo_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_hora_pesadelo_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_hora_pesadelo_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_hora_pesadelo_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_invocacao_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_invocao_1" />
+
+                    <TextView
+                        android:id="@+id/tv_invocacao_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_invocacao_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/invocacao_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_invocacao_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_invocacao_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/invocacao_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_invocacao_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_invocacao_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_invocacao_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_invocacao_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_orfa_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_orfa" />
+
+                    <TextView
+                        android:id="@+id/tv_orfa_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_orfa_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/orfa_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_orfa_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_orfa_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/orfa_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_orfa_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_orfa_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_orfa_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_orfa_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_poltergeist_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_poltergeist" />
+
+                    <TextView
+                        android:id="@+id/tv_poltergeist_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_poltergeist_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/poltergeist_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_poltergeist_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_poltergeist_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/poltergeist_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_poltergeist_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_poltergeist_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_poltergeist_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_poltergeist_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_sobrenatural_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/cartaz_sobrenatural" />
+
+                    <TextView
+                        android:id="@+id/tv_sobrenatural_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_sobrenatural_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/sobrenatural_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sobrenatural_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_sobrenatural_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/sobrenatural_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_sobrenatural_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/iv_sobrenatural_img"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_sobrenatural_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/btn_sobrenatural_details"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="3dp"
+                app:cardMaxElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_annabelle_img"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/cartaz_logan" />
+
+                    <TextView
+                        android:id="@+id/tv_annabelle_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/iv_annabelle_img"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/annabelle_title"
+                        android:textColor="#000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_annabelle_synopsis"
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:layout_below="@+id/tv_annabelle_title"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="16dp"
+                        android:text="@string/annabelle_short_synopsis"
+                        android:textColor="#999"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_annabelle_details"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="seeSynopsis"
+                        android:text="@string/btn_synopsis"
+                        android:layout_below="@+id/iv_annabelle_img"
+                        android:layout_toRightOf="@+id/tv_annabelle_synopsis"
+                        android:layout_toEndOf="@+id/tv_annabelle_synopsis" />
+
+                    <Button
+                        android:id="@+id/btn_annabele_buy"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="buyTicket"
+                        android:text="@string/btn_buy"
+                        android:layout_marginRight="17dp"
+                        android:layout_marginEnd="17dp"
+                        android:layout_below="@+id/iv_annabelle_img"
+                        android:layout_toLeftOf="@+id/btn_annabelle_details"
+                        android:layout_toStartOf="@+id/btn_annabelle_details" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
+
+

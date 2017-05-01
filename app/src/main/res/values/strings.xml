@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">SinopCine</string>
+    <string name="main_movie">Logan</string>
+    <string name="btn_buy">Comprar</string>
+    <string name="btn_synopsis">Sinopse</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Logan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_action_adventure_movie">Ação e Aventura</string>
+    <string name="title_activity_animation_movie">Animação</string>
+    <string name="title_activity_comedy_movie">Comédia</string>
+    <string name="title_activity_horror_movie">Terror</string>
+	<!-- Ação Aventura -->
+    <string name="logan_title">Logan</string>
+    <string name="velozes_title">Velozes e Furiosos 8</string>
+    <string name="ultimo_cacador_title">O Último Caçador de Bruxas</string>
+    <string name="anjos_title">Anjos da Noite</string>
+    <string name="kong_title">Kong: A Ilha da Caveira</string>
+    <string name="guardioes_title">Guardiões da Galáxia</string>
+    <string name="mad_max_title">Mad Max</string>
+    <string name="rogue_one_title">Star Wars: Rogue One</string>
+    <string name="hitman_title">Hitman: Agente 47</string>
+    <string name="trezentos_title">300</string>
+
+    <string name="logan_synopsis">Em 2029, Logan (Hugh Jackman) ganha a vida como chofer de limousine para cuidar do nonagenário Charles Xavier (Patrick Stewart). Debilitado fisicamente e esgotado emocionalmente, ele é procurado por Gabriela (Elizabeth Rodriguez), uma mexicana que precisa da ajuda do ex-X-Men para defender a pequena Laura Kinney / X-23 (Dafne Keen). Ao mesmo tempo em que se recusa a voltar à ativa, Logan é perseguido pelo mercenário Donald Pierce (Boyd Holbrook), interessado na menina.</string>
+    <string name="velozes_synopsis">Depois que Brian (Paul Walker) e Mia (Jordana Brewster) se aposentaram, e o resto da equipe foi exonerado, Dom (Vin Diesel) e Letty (Michelle Rodriguez) estão em lua de mel e levam uma vida pacata e completamente normal. Mas a adrenalina do passado acaba voltando com tudo quando uma mulher misteriosa (Charlize Theron) faz com que Dom retorne ao mundo do crime e da velocidade.</string>
+    <string name="ultimo_cacador_synopsis">Amaldiçoado com a imortalidade, o caçador de bruxas Kaulder (Vin Diesel) é obrigado a enfrentar mais uma vez sua maior inimiga e unir forças com a jovem bruxa Chloe (Rose Leslie) para impedir que uma convenção espalhe uma terrível praga pela cidade.</string>
+    <string name="anjos_synopsis">Selene (Kate Beckinsale) é uma guerreira vampira que luta para acabar com a guerra eterna entre o clã Lycan de lobisomens sanguinários e a facção de vampiros que a traiu. Quando um novo levante parece tomar forma, ela irá utilizar sua influência e relacionamento com ambas as partes para negociar um cessar fogo.</string>
+    <string name="kong_synopsis">1944, durante a Segunda Guerra Mundial. Dois aviões, um americano e outro japonês, são abatidos em pleno combate aéreo. Os pilotos sobrevivem, chegando a uma ilha desconhecida no Pacífico Sul. Lá eles dão continuidade à batalha, sendo surpreendidos pela aparição de um macaco gigante: Kong. Em 1973, Bill Randa (John Goodman) tenta obter junto a um político norte-americano a verba necessária para bancar uma expedição à tal ilha perdida. Ele acredita que lá existam monstros, mas precisa de provas concretas. Após obter a quantia, ele coordena uma expedição que reúne militares, liderados pelo coronel Preston Packard (Samuel L. Jackson), o rastreador James Conrad (Tom Hiddleston) e a fotógrafa Mason Weaver (Brie Larson).</string>
+    <string name="guardioes_synopsis">Peter Quill (Chris Pratt) foi abduzido da Terra quando ainda era criança. Adulto, fez carreira como saqueador e ganhou o nome de Senhor das Estrelas. Quando rouba uma esfera, na qual o poderoso vilão Ronan, da raça kree, está interessado, passa a ser procurado por vários caçadores de recompensas. Para escapar do perigo, Quill une forças com quatro personagens fora do sistema: Groot, uma árvore humanóide (Vin Diesel), a sombria e perigosa Gamora (Zoe Saldana), o guaxinim rápido no gatilho Rocket Racoon (Bradley Cooper) e o vingativo Drax, o Destruidor (Dave Bautista). Mas o Senhor das Estrelas descobre que a esfera roubada possui um poder capaz de mudar os rumos do universo, e logo o grupo deverá proteger o objeto para salvar o futuro da galáxia.</string>
+    <string name="mad_max_synopsis">Após ser capturado por Immortan Joe, um guerreiro das estradas chamado Max (Tom Hardy) se vê no meio de uma guerra mortal, iniciada pela Imperatriz Furiosa (Charlize Theron) na tentativa se salvar um grupo de garotas. Também tentanto fugir, Max aceita ajudar Furiosa em sua luta contra Joe e se vê dividido entre mais uma vez seguir sozinho seu caminho ou ficar com o grupo.</string>
+    <string name="rogue_one_synopsis">Ainda criança, Jyn Erso (Felicity Jones) foi afastada de seu pai, Galen (Mads Mikkelsen), devido à exigência do diretor Krennic (Ben Mendelsohn) que ele trabalhasse na construção da arma mais poderosa do Império, a Estrela da Morte. Criada por Saw Gerrera (Forest Whitaker), ela teve que aprender a sobreviver por conta própria ao completar 16 anos. Já adulta, Jyn é resgatada da prisão pela Aliança Rebelde, que deseja ter acesso a uma mensagem enviada por seu pai a Gerrera. Com a promessa de liberdade ao término da missão, ela aceita trabalhar ao lado do capitão Cassian Andor (Diego Luna) e do robô K-2SO.</string>
+    <string name="hitman_synopsis">Agente 47 (Rupert Friend) é um assassino de elite geneticamente modificado criado para ser a máquina de matar perfeita. Ele precisa caçar uma mega operação que pretende usar o segredo de sua criação para a formação de um exército imbátivel. Ao juntar forças com uma misteriosa jovem, que pode ser o diferencial para o sucesso da missão, ele vai descobrir segredos de sua origem em uma batalha épica contra seu maior inimigo.</string>
+    <string name="trezentos_synopsis">Grécia, 480 AC. Na Batalha de Termópilas, o rei Leônidas (Gerard Butler) e seus 300 guerreiros de Esparta lutam bravamente contra o numeroso exército do rei Xerxes (Rodrigo Santoro). Após três dias de muita luta, todos os espartanos são mortos. O sacrifício e a dedicação destes homens uniu a Grécia no combate contra o inimigo persa.</string>
+
+
+    <string name="logan_short_synopsis">Em 2029, Logan (Hugh Jackman) ganha a vida como chofer de limousine para cuidar do nonagenário Charles Xavier (Patrick Stewart)...</string>
+    <string name="velozes_short_synopsis">Depois que Brian (Paul Walker) e Mia (Jordana Brewster) se aposentaram, e o resto da equipe foi exonerado, Dom (Vin Diesel)...</string>
+    <string name="ultimo_cacador_short_synopsis">Amaldiçoado com a imortalidade, o caçador de bruxas Kaulder...</string>
+    <string name="anjos_short_synopsis">Selene (Kate Beckinsale) é uma guerreira vampira que luta para acabar com a guerra eterna...</string>
+    <string name="kong_short_synopsis">1944, durante a Segunda Guerra Mundial. Dois aviões, um americano e outro japonês, são abatidos em pleno combate aéreo. Os pilotos sobrevivem...</string>
+    <string name="guardioes_short_synopsis">Peter Quill (Chris Pratt) foi abduzido da Terra quando ainda era criança. Adulto, fez carreira como saqueador e ganhou o nome de Senhor das Estrelas...</string>
+    <string name="mad_max_short_synopsis">Após ser capturado por Immortan Joe, um guerreiro das estradas chamado Max (Tom Hardy) se vê no meio de uma guerra mortal...</string>
+    <string name="rogue_one_short_synopsis">Ainda criança, Jyn Erso (Felicity Jones) foi afastada de seu pai, Galen (Mads Mikkelsen), devido à exigência do diretor Krennic (Ben Mendelsohn)...</string>
+    <string name="hitman_short_synopsis">Agente 47 (Rupert Friend) é um assassino de elite geneticamente modificado criado para ser a máquina de matar perfeita...</string>
+    <string name="trezentos_short_synopsis">Grécia, 480 AC. Na Batalha de Termópilas, o rei Leônidas (Gerard Butler)...</string>
+<!-- Animação -->
+    <string name="avioes_title">Aviões</string>
+    <string name="carros_title">Carros 3</string>
+    <string name="chefinho_title">O Poderoso Chefinho</string>
+    <string name="divertidamente_title">Divertida Mente</string>
+    <string name="kubo_title">Kubo e as Cordas Mágicas</string>
+    <string name="pets_title">Pets - a Vida Secreta dos Bichos</string>
+    <string name="shrek_title">Shrek Para Sempre</string>
+    <string name="dragao_title">Como Treinar Seu Dragão 2</string>
+    <string name="turbo_title">Turbo</string>
+    <string name="zootopia_title">Zootopia</string>
+
+    <string name="avioes_synopsis">Dusty (Dane Cook) é um avião que trabalha pulverizando plantações. Seu grande sonho é participar de corridas internacionais, ao lado de alguns dos mais famosos competidores, mas seu medo de altura e a própria composição da carroceria impedem que esta vontade se torne realidade. Sabendo do sonho do amigo, Chug (Brad Garrett) busca a ajuda de Skipper (Stacy Keach), um reservado avião que, devido a um acidente no passado, não consegue mais voar. Após muita insistência, Skipper aceita ser o mentor de Dusty nesta empreitada.</string>
+    <string name="carros_synopsis">Durante mais uma disputa eletrizante nas pistas, o campeão Relâmpago McQueen acelerou demais e acabou perdendo o controle. Agora, após ter capotando várias vezes e quase ter partido dessa para melhor, o vermelinho vai ter sua vida alterada para sempre. O acidente foi tão grave que, com os estragos, McQueen pode ter que se aposentar de vez.</string>
+    <string name="chefinho_synopsis">Um bebê falante que usa terno e carrega uma maleta misteriosa une forças com seu irmão mais velho invejoso para impedir que um inescrupuloso CEO acabe com o amor no mundo. A missão é salvar os pais, impedir a catástrofe e provar que o mais intenso dos sentimentos é uma poderosa força.</string>
+    <string name="divertidamente_synopsis">Riley é uma garota divertida de 11 anos de idade, que deve enfrentar mudanças importantes em sua vida quando seus pais decidem deixar a sua cidade natal, no estado de Minnesota, para viver em San Francisco. Dentro do cérebro de Riley, convivem várias emoções diferentes, como a Alegria, o Medo, a Raiva, o Nojinho e a Tristeza. A líder deles é Alegria, que se esforça bastante para fazer com que a vida de Riley seja sempre feliz. Entretanto, uma confusão na sala de controle faz com que ela e Tristeza sejam expelidas para fora do local. Agora, elas precisam percorrer as várias ilhas existentes nos pensamentos de Riley para que possam retornar à sala de controle - e, enquanto isto não acontece, a vida da garota muda radicalmente.</string>
+    <string name="kubo_synopsis">Kubo vive uma normal e tranquila vida em uma pequena vila no Japão com sua mãe. Até que um espírito vingativo do passado muda completamente sua vida, ao fazer com que todos os tipos de deuses e monstros o persigam. Agora, para sobreviver, Kubo terá de encontrar uma armadura mágica que foi usada pelo seu falecido pai, um lendário guerreiro samurai.</string>
+    <string name="pets_synopsis">Max é um cachorro que mora em um apartamento de Manhattan. Quando sua querida dona traz para casa um novo cão chamado Duke, Max não gosta nada, já que seus privilégios parecem ter acabado. Mas logo eles vão ter que pôr as divergências de lado quando um incidente coloca os dois na mira da carrocinha. Enquanto tentam fugir, os animais da vizinhança se reúnem para o resgate e uma gangue de bichos que moram nos esgotos se mete no caminho da dupla.</string>
+    <string name="shrek_synopsis">Shrek (Mike Myers) está entediado. Sua antiga vida de aventuras foi substituída pela de pacato pai de família. Casado com Fiona (Cameron Diaz) e pai de três filhos, Shrek sente falta da adrenalina e da liberdade que tinha no passado. Para recuperá-los, ele firma um pacto com Rumpelstiltiskin (Walt Dohrm). Imediatamente Shrek é levado a uma versão alternativa do Reino de Tão, Tão Distante, onde Fiona é uma temível ogro e ele não é mais reconhecido pelo Burro (Eddie Murphy) e o Gato de Botas (Antonio Bandera), seus melhores amigos.</string>
+    <string name="dragao_synopsis">Cinco anos após convencer os habitantes de seu vilarejo que os dragões não devem ser combatidos, Soluço (voz de Jay Baruchel) convive com seu dragão Fúria da Noite, e estes animais integraram pacificamente a rotina dos moradores da ilha de Berk. Entre viagens pelos céus e corridas de dragões, Soluço descobre uma caverna secreta, onde centenas de novos dragões vivem. O local é protegido por Valka (voz de Cate Blanchett), mãe de Soluço, que foi afastada do filho quando ele ainda era um bebê. Juntos, eles precisarão proteger o mundo que conhecem do perigoso Drago Bludvist (Djimon Hounson), que deseja controlar todos os dragões existentes.</string>
+    <string name="turbo_synopsis">Theo (voz original de Ryan Reynolds) é um caracol de jardim, que passa o dia com outros caracóis, colhendo tomates e torcendo para não ser capturado por aves predadoras. Apesar da vida pacata, este jovem animal sonha em se tornar extremamente veloz, como o seu ídolo, o corredor campeão de Indianápolis Guy Gagné (voz original de Bill Hader). A obsessão pela velocidade faz que com Theo seja ridicularizado pelos colegas. Um dia, no entanto, ele cai acidentalmente dentro do motor de um grande carro de corrida, e um efeito inesperado acontece em seu corpo, fazendo com que ele se torne extremamente veloz. Rebatizado Turbo, o caracol encontra abrigo na casa de Tito (voz original de Michael Peña), um vendedor de comida mexicana conhecido pelos planos inusitados e que quase sempre dão errado. Surpreso com a velocidade de Turbo, Tito decide levá-lo à corrida de Indianápolis, para competir com Guy Gagné.</string>
+    <string name="zootopia_synopsis">Judy Hopps é a pequena coelha de uma fazenda isolada, filha de agricultores que plantam cenouras há décadas. Mas ela tem sonhos maiores: pretende se mudar para a cidade grande, Zootopia, onde todas as espécies de animais convivem em harmonia, na intenção de se tornar a primeira coelha policial. Judy enfrenta o preconceito e as manipulações dos outros animais, mas conta com a ajuda inesperada da raposa Nick Wilde, conhecida por sua malícia e suas infrações. A inesperada dupla se dedica à busca de um animal desaparecido, descobrindo uma conspiração que afeta toda a cidade.</string>
+
+    <string name="avioes_short_synopsis">Dusty (Dane Cook) é um avião que trabalha pulverizando plantações. Seu grande sonho é...</string>
+    <string name="carros_short_synopsis">Durante mais uma disputa eletrizante nas pistas, o campeão Relâmpago McQueen acelerou demais e ...</string>
+    <string name="chefinho_short_synopsis">Um bebê falante que usa terno e carrega uma maleta misteriosa une forças com ...</string>
+    <string name="divertidamente_short_synopsis">Riley é uma garota divertida de 11 anos de idade, que deve enfrentar mudanças importantes em sua vida quando seus pais decidem deixar...</string>
+    <string name="kubo_short_synopsis">Kubo vive uma normal e tranquila vida em uma pequena vila no Japão com sua mãe. Até que um ...</string>
+    <string name="pets_short_synopsis">Max é um cachorro que mora em um apartamento de Manhattan. Quando sua querida dona traz para casa ...</string>
+    <string name="shrek_short_synopsis">Shrek (Mike Myers) está entediado. Sua antiga vida de aventuras foi substituída pela...</string>
+    <string name="dragao_short_synopsis">Cinco anos após convencer os habitantes de seu vilarejo que os dragões não devem ...</string>
+    <string name="turbo_short_synopsis">Theo (voz original de Ryan Reynolds) é um caracol de jardim, que passa o dia...</string>
+    <string name="zootopia_short_synopsis">Judy Hopps é a pequena coelha de uma fazenda isolada, filha de agricultores que plantam cenouras há décadas. Mas ela ...</string>
+
+
+    <!-- Comédia -->
+    <string name="espia_title">A Espiã que Sabia de Menos</string>
+    <string name="anjos_lei_title">Anjos da Lei</string>
+    <string name="austin_title">Aunstin Powers</string>
+    <string name="branquelas_title">As Branquelas</string>
+    <string name="chefe_title">Quero Matar Meu Chefe 2</string>
+    <string name="joy_title">Joy</string>
+    <string name="norbit_title">Norbit</string>
+    <string name="panico_title">Todo Mundo em Pânico 2</string>
+    <string name="pistola_title">Um Milhão de Maneiras de Pegar na Pistola</string>
+    <string name="ted_title">Ted</string>
+    <string name="espia_synopsis">Susan Cooper (Melissa McCarthy) é uma despretensiosa analista de base da CIA, e heroína não reconhecida por trás das missões mais perigosas da Agência. Mas quando seu parceiro (Jude Law) sai da jogada, e outro agente (Jason Statham) fica comprometido, Susan se voluntaria para se infiltrar no mundo de um traficante de armas mortais e evitar um desastre global.</string>
+    <string name="anjos_lei_synopsis">Jenko (Channing Tatum) e Schmidt (Jonah Hill) estudaram juntos, mas jamais foram amigos. A situação muda quando se reencontram na academia de policiais, onde passam a ajudar um ao outro. Já formados, se envolvem em uma confusão ao tentar realizar a prisão de um traficante de drogas, que atuava no parque onde trabalhavam. Remanejados para uma divisão comandada pelo capitão Walters (Ice Cube), onde jovens policiais trabalham infiltrados, eles recebem a missão de desvendar quem é o fornecedor de uma nova e perigosa droga. De volta ao ambiente escolar e atuando sob nomes falsos, Jenko e Schmidt precisam se acostumar aos novos tempos sem perder o foco na tarefa que lhes foi incumbida.</string>
+    <string name="austin_synopsis">O agente Austin Powers (Mike Myers) foi congelado nos anos 60 depois que seu maior inimigo, Dr. Evil (Mike Myers), escapa em uma nave espacial. Já nos anos 90, herói e vilão voltam a se enfrentar enquanto tentam se adaptar ao mundo moderno.</string>
+    <string name="branquelas_synopsis">Os irmãos Marcus (Marlon Wayans) e Kevin Copeland (Shawn Wayans) são detetives do FBI que estão com problemas no trabalho. A última investigação da dupla foi um grande fracasso e eles estão sob a ameaça de serem demitidos. Quando um plano para sequestrar as mimadas irmãs Brittany (Maitland Ward) e Tiffany Wilson (Anne Dudek) é descoberto, o caso é entregue aos principais rivais dos irmãos Copeland, os agentes Vincent Gomez (Eddie Velez) e Jack Harper (Lochlyn Munro). Para aumentar ainda mais a humilhação da dupla, eles são escalados para escoltar as jovens mimadas do aeroporto até o local de um evento pelo qual elas esperaram por meses. Porém no trajeto um acidente de carro provoca um verdadeiro desastre: enquanto uma das irmãs arranha o nariz, a outra corta o lábio. Desesperadas, elas se recusam a ir ao evento. É quando,para salvar o emprego, Marcus e Kevin decidem por assumir as identidades das irmãs.</string>
+    <string name="chefe_synopsis">Após o trauma vivido no filme anterior, os amigos Nick (Jason Bateman), Dale (Charlie Day) e Kurt (Jason Sudeikis) resolvem abrir seu próprio negócio, de forma que eles mesmos sejam seus chefes. O problema é que, quando a companhia começa a deslanchar, eles sofrem um golpe do investidor (Christoph Waltz) que bancou o negócio. Sem ter como recorrer através dos meios legais, o trio decide partir para um ato desesperado: sequestrar o filho do investidor (Chris Pine) e, com o dinheiro do resgate, pagar a dívida contraída e manter a empresa.</string>
+    <string name="joy_synopsis">Criativa desde a infância, Joy Mangano (Jennifer Lawrence) entrou na vida adulta conciliando a jornada de mãe solteira com a de inventora e tanto fez que tornou-se uma das empreendedoras de maior sucesso dos Estados Unidos.</string>
+    <string name="norbit_synopsis">Norbit (Eddie Murphy) foi criado pelo sr. Wong (Eddie Murphy), que o encontrou ainda bebê no Restaurante e Orfanato Wonton Dourado. Foi neste local que ele conheceu sua alma gêmea, Kate (Thandie Newton). Eles se tornam amigos inseparáveis, até ela ser adotada e deixar o local. Aos 9 anos, Norbit é ameaçado por três garotos da escola mas é salvo por Rasputia (Eddie Murphy), uma robusta garota de 10 anos. Os dois crescem, namoram e se casam. Juntamente com seus irmãos Jack Grandão (Terry Lewis), Azulão (Mighty Rasta) e Earl (Clifton Powell), Rasputia administra a Construtora Latimore. Norbit é empregado da empresa, sendo sempre ridicularizado pelos cunhados. A vida de Norbit não anda nada bem, mas ela muda após reencontrar Kate, que decide comprar o antigo orfanato do sr. Wong. Porém o que Kate não sabe é que seu noivo, Deion (Cuba Gooding Jr.), planeja transformar o local em um bar de strip-tease, contando com a ajuda dos irmãos de Rasputia. Reanimado por ter reencontrado Kate, Norbit ganha confiança e, aos poucos, passa a enfrentar a esposa e sua família.</string>
+    <string name="panico_synopsis">Megan Voorhess (Natasha Lyonne) é uma jovem garota que está possuída pelo demônio. Os padres McFeely (James Woods) e Harris (Andy Richter) partem em seu socorro, a fim de exorcizá-la, mas falham miseravelmente em sua missão, quando as línguas de Megan e do padre McFeely ficam presas e todos acabam vomitando sopa de ervilha uns nos outros. Um ano depois, Cindy Campbell (Anna Farris), Ray Maker (Shawn Wayans), Shorty Meeks (Marlon Wayans) e Brenda (Regina Hall) estão tentando esquecer os incidentes que ocorreram com o grupo no último Halloween. Neste contexto Cindy está apaixonada por Buddy (Christopher Masterson) e Ray continua indeciso sobre sua sexualidade, até que o Professor Oldman (Tim Curry) e seu assistente deficiente Dwight (David Cross) encomendam aos alunos um estudo sobre a Casa do Inferno, um lugar onde uma sessão frustrada de exorcismo ocorreu no passado. Mas o caos tem início quando Cindy encontra Hanson (Chris Elliott), o vigia louco da Casa do Inferno que possui uma mão deformada, fazendo com que o grupo desvende os vários mistérios que cercam o local.</string>
+    <string name="pistola_synopsis">O covarde fazendeiro Albert (Seth MacFarlane) se encanta com a misteriosa forasteira Anna (Charlize Theron) e, movido pela paixão, demonstra ter sim um pouco de coragem dentro de si. Sua recém-descoberta bravura, porém, logo é posta em xeque com a chegada do marido da bela, o famoso pistoleiro Clinch (Liam Neeson), foragido da justiça.</string>
+    <string name="ted_synopsis">É Natal e o pequeno John tem apenas um pedido a fazer ao Papai Noel: que seu ursinho de pelúcia, Ted, ganhe vida. O garoto fica surpreso ao perceber que seu pedido foi atendido e logo eles se tornam grandes amigos. John e Ted crescem juntos e o urso de pelúcia se torna bastante mal humorado com a idade. Já adulto, John (Mark Wahlberg) precisa decidir entre manter a amizade de infância ou o namoro com Lori Collins (Mila Kunis).</string>
+
+    <string name="espia_short_synopsis">Susan Cooper (Melissa McCarthy) é uma despretensiosa analista de base da CIA...</string>
+    <string name="anjos_lei_short_synopsis">Jenko (Channing Tatum) e Schmidt (Jonah Hill) estudaram juntos, mas jamais foram amigos...</string>
+    <string name="austin_short_synopsis">O agente Austin Powers (Mike Myers) foi congelado nos anos 60 depois que seu maior inimigo, Dr. Evil (Mike Myers), escapa em uma nave espacial. Já nos anos 90, herói e vilão voltam a se enfrentar enquanto tentam se adaptar ao mundo moderno.</string>
+    <string name="branquelas_short_synopsis">Os irmãos Marcus (Marlon Wayans) e Kevin Copeland (Shawn Wayans) são detetives do FBI ...</string>
+    <string name="chefe_short_synopsis">Após o trauma vivido no filme anterior, os amigos ...</string>
+    <string name="joy_short_synopsis">Criativa desde a infância, Joy Mangano (Jennifer Lawrence) entrou na vida adulta conciliando a jornada de mãe solteira com a de inventora e tanto fez que tornou-se uma das empreendedoras de maior sucesso dos Estados Unidos.</string>
+    <string name="norbit_short_synopsis">Norbit (Eddie Murphy) foi criado pelo sr. Wong (Eddie Murphy), que o encontrou ainda bebê ...</string>
+    <string name="panico_short_synopsis">Megan Voorhess (Natasha Lyonne) é uma jovem garota que está possuída pelo demônio. Os padres ...</string>
+    <string name="pistola_short_synopsis">O covarde fazendeiro Albert (Seth MacFarlane) se encanta com a misteriosa ...</string>
+    <string name="ted_short_synopsis">É Natal e o pequeno John tem apenas um pedido a fazer ao Papai Noel: que seu ursinho ...</string>
+
+
+
+
+
+
+    <!-- Terror -->
+    <string name="annabelle_title">Annabelle</string>
+    <string name="boneco_title">Boneco do Mal</string>
+    <string name="bruxa_title">A Bruxa</string>
+    <string name="entidade1_title">A Entidade</string>
+    <string name="entidade2_title">A Entidade 2</string>
+    <string name="hora_pesadelo_title">Hora do Pesadelo</string>
+    <string name="invocacao_title">Invocação do Mal</string>
+    <string name="orfa_title">A Orfã</string>
+    <string name="poltergeist_title">Poltergeist</string>
+    <string name="sobrenatural_title">Sobrenatural
+</string>
+    <string name="annabelle_synopsis">Um casal se prepara para a chegada de sua primeira filha e compra para ela uma boneca. Quando sua casa é invadida por membros de uma seita, o casal é violentamente atacado e a boneca, Anabelle, se torna recipiente de uma entidade do mal.</string>
+    <string name="boneco_synopsis">Greta (Lauren Cohan) é uma jovem americana que aceita um trabalho como babá em uma pequena vila inglesa. Porém, o garoto de 8 anos de quem ela tem que cuidar é, na verdade, um boneco de quem o casal cuida como se fosse um menino de verdade, como uma forma de lidarem com a morte do filho, ocorrida 20 anos antes. Após violar uma lista de regras do garoto, uma série de eventos inexplicáveis transformam a vida dela em um pesadelo.</string>
+    <string name="bruxa_synopsis">Nova Inglaterra, década de 1630. O casal William e Katherine leva uma vida cristã com suas cinco crianças em uma comunidade extremamente religiosa, até serem expulsos do local por sua fé diferente daquela permitida pelas autoridades. A família passa a morar num local isolado, à beira do bosque, sofrendo com a escassez de comida. Um dia, o bebê recém-nascido desaparece. Teria sido devorado por um lobo? Sequestrado por uma bruxa? Enquanto buscam respostas à pergunta, cada membro da família enfrenta seus piores medos e seu lado mais condenável.</string>
+    <string name="entidade1_synopsis">Ellison (Ethan Hawke) é um escritor de romances policias que acaba de se mudar com a família. No sótão da nova casa ele descobre antigos rolos de filme, que trazem imagens de pessoas sendo mortas. Intrigado com o que elas representam e com um estranho símbolo presente nas imagens, ele e sua família logo passam a correr sério risco de morte. Com Vincent D\'Onofrio.</string>
+    <string name="entidade2_synopsis">Courtney (Shannyn Sossamon), uma jovem mãe solteira e superprotetora de dois gêmeos de 9 anos, se muda com os filhos para uma casa em uma área rural de uma pequena cidade. Logo, ela descobre que o local foi palco de estranhos acontecimentos e que sua família está marcada para morrer.</string>
+    <string name="hora_pesadelo_synopsis">Um grupo de adolescentes tem pesadelos horríveis, onde são atacados por um homem deformado com garras de aço. Ele apenas aparece durante o sono e, para escapar, é preciso acordar. Os crimes vão ocorrendo seguidamente, até que se descobre que o ser misterioso é na verdade Freddy Krueger (Robert Englund), um homem que molestou crianças na rua Elm e que foi queimado vivo pela vizinhança. Agora Krueger pode retornar para se vingar daqueles que o mataram, através do sono.</string>
+    <string name="invocacao_synopsis">Harrisville, Estados Unidos. Um casal (Ron Livinston e Lili Taylor) muda para uma casa nova ao lado de suas cinco filhas. Inexplicavelmente, estranhos acontecimentos começam a assustar as crianças, o pai e, principalmente, a mãe. Preocupada com algumas manchas que aparecem em seu corpo e com uma sequência de sustos que levou, ela decide procurar um famoso casal de investigadores paranormais (Patrick Wilson e Vera Farmiga), mas eles não aceitam o convite, acreditando ser somente mais um engano de pessoas apavoradas com canos que fazem barulhos durante a noite ou coisas do gênero. Porém, quando eles aceitam fazer uma visita ao local, descobrem que algo muito poderoso e do mal reside ali. Agora, eles precisam descobrir o que é e o porquê daquilo tudo acontecendo com os membros daquela família. É quando o passado começa a revelar uma entidade demoníaca querendo continuar sua trajetória de maldades.</string>
+    <string name="orfa_synopsis">Kate (Vera Farmiga) e John Coleman (Peter Sarsgaard) ficam arrasados devido a um trágico aborto. Apesar de já ter dois filhos, Daniel (Jimmy Bennett) e a surda muda Maxime (Aryana Engineer), o casal decide adotar uma criança. Durante uma visita a um orfanato, os dois se encantam pela pequena Esther (Isabelle Fuhrman) de nove anos e optam rapidamente por sua adoção. O que eles não sabiam é que estranhos acontecimentos fazem parte do histórico da menina que passa a se tornar, dia após dia, mais misteriosa. Intrigada, Kate desconfia que Esther não é quem aparenta ser, mas devido ao seu passado de alcoolismo tem dificuldades de provar sua teoria.</string>
+    <string name="poltergeist_synopsis">A família Bowen acaba de se mudar para uma nova casa. O pai, a mãe e os dois filhos parecem se adaptar bem ao novo lar, até começarem a perceber estranhas manifestações em casa, atingindo principalmente a filha pequena. Um dia, ela é sequestrada pelas forças malignas, fazendo com que os pais procurem a ajuda em especialistas no assunto, para recuperar a criança antes que seja tarde demais.</string>
+    <string name="sobrenatural_synopsis">A família Lambert, formada por Josh (Patrick Wilson), Renai (Rose Byrne) e os filhos Dalton (Ty Simpkins) e Foster (Andrew Astor), acaba de se mudar. Logo, uma das crianças entra em coma de forma inexplicável, o que faz os pais pensarem que a nova casa abriga algum tipo de espírito do mal. Mas eles logo se mudam do local e nos dias seguintes acabam descobrindo que o problema não estava na casa e sim no próprio filho.</string>
+
+    <string name="annabelle_short_synopsis">Um casal se prepara para a chegada de sua primeira filha e compra para ela...</string>
+    <string name="boneco_short_synopsis">Greta (Lauren Cohan) é uma jovem americana que aceita um trabalho como babá em uma...</string>
+    <string name="bruxa_short_synopsis">Nova Inglaterra, década de 1630. O casal William e Katherine leva uma vida cristã...</string>
+    <string name="entidade1_short_synopsis">Ellison (Ethan Hawke) é um escritor de romances policias que acaba de se mudar...</string>
+    <string name="entidade2_short_synopsis">Courtney (Shannyn Sossamon), uma jovem mãe solteira e superprotetora...</string>
+    <string name="hora_pesadelo_short_synopsis">Um grupo de adolescentes tem pesadelos horríveis, onde são atacados por...</string>
+    <string name="invocacao_short_synopsis">Harrisville, Estados Unidos. Um casal (Ron Livinston e Lili Taylor) muda para uma casa nova...</string>
+    <string name="orfa_short_synopsis">Kate (Vera Farmiga) e John Coleman (Peter Sarsgaard) ficam arrasados devido a um trágico...</string>
+    <string name="poltergeist_short_synopsis">A família Bowen acaba de se mudar para uma nova casa. O pai, a mãe e os dois filhos parecem se adaptar bem ao novo lar...</string>
+    <string name="sobrenatural_short_synopsis">A família Lambert, formada por Josh (Patrick Wilson), Renai (Rose Byrne) e os filhos Dalton (Ty Simpkins) e Foster (Andrew Astor), acaba de se mudar...</string>
+
+
+
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>
